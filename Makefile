@@ -18,3 +18,4 @@ gen:
 
 build: $(GO_SOURCES)
 	GO111MODULE=on CGO_ENABLED=0 go build -o $(OUTPUT) -ldflags ${LDFLAGS} ./
+sd
